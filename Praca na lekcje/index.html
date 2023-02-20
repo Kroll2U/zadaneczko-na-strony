@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Klienci</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/a3fb65ee77.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="container">
+
+    <div id="x">
+
+      <aside>
+        <br>
+
+        <ul class="list-group col-10" style="margin-left:auto; margin-right:auto;">
+          <li class="list-group-item"><i class="fa-solid fa-user"></i> Klienci</li>
+        </ul>
+
+        <div class="row">
+          <div class="col-10" style="margin-left:auto; margin-right:auto;">
+            <div class="list-group" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list"
+                href="#list-home" role="tab" aria-controls="list-home">Klienci</a>
+              <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
+                href="#list-profile" role="tab" aria-controls="list-profile">Pracownik klienta</a>
+              <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
+                href="#list-messages" role="tab" aria-controls="list-messages">Powiązania</a>
+              <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                href="#list-settings" role="tab" aria-controls="list-settings">Straceni klienci</a>
+            </div>
+          </div>
+
+        </div>
+
+        <br>
+
+        <ul class="list-group list-group-flush col-10" style="margin-left:auto; margin-right:auto;">
+          <li class="list-group-item"><i class="fa-solid fa-user-pen"></i> Zamówienia</li>
+          <li class="list-group-item"><i class="fa-solid fa-file"></i> Dokumenty</li>
+          <li class="list-group-item"><i class="fa-solid fa-eye"></i> Wizerunek</li>
+          <li class="list-group-item"><i class="fa-solid fa-users"></i> Użytkownicy</li>
+          <li class="list-group-item"><i class="fa-solid fa-user-tie"></i> Konkurencja</li>
+          <li class="list-group-item"><i class="fa-solid fa-magnifying-glass-chart"></i> Analiza marketingu</li>
+          <li class="list-group-item"><i class="fa-solid fa-comment"></i> Ankiety klientów</li>
+          <li class="list-group-item"><i class="fa-solid fa-calendar-day"></i> Kalendarz</li>
+          <li class="list-group-item"><i class="fa-solid fa-envelope"></i> Email</li>
+          <li class="list-group-item"><i class="fa-solid fa-pen"></i> Ustawienia</li>
+          <li class="list-group-item"><i class="fa-solid fa-toolbox"></i> Rentowność</li>
+          <li class="list-group-item"><i class="fa-solid fa-face-smile"> </i> BHP</li>
+
+        </ul>
+
+      </aside>
+      <article>
+
+
+        <nav>
+          <div style="display: flex; justify-content:space-between; width:25%;">
+            <p class="text-start" style="margin-top:auto; margin-bottom:auto;">Wyszukiwanie: </p>
+            <input class="form-control" type="text" readonly style="width:65%">
+          </div>
+
+          <div style="display: flex; justify-content:space-between; width:20%; ">
+            <button type="button" class="btn btn-none" id="adanka">
+              Zadania na dzis <span class="badge text-bg-danger"> 5</span>
+            </button>
+
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false" id="Witaj">
+                Witaj Marcin <i class="fa-solid fa-gear"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Moje konto</a></li>
+                <li><a class="dropdown-item" href="#">Wyloguj</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+
+        </nav>
+
+
+        <h2>Klienci</h2>
+        <div id="srodeksrodka">
+
+            <div class="btn-group" role="group" aria-label="Basic example" id="guziory" >
+              <button type="button" class="btn btn-light" id="guziiczki">Filtry</button>
+              <button type="button" class="btn btn-light" id="guziiczki">Testowy raport</button>
+              <button type="button" class="btn btn-light" id="guziiczki">Globalny</button>
+
+            </div>
+
+          <div id="dwiewyszuk">
+
+
+
+            <div class="calawyszuk">
+              <div class="mb-3" id="WYSZKKKK">
+                <label for="exampleFormControlInput1" class="form-label">Kraj</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+              </div>
+              <div class="mb-3" id="WYSZKKKK">
+                <label for="exampleFormControlInput1" class="form-label">NIP</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+              </div>
+              <div class="mb-3" id="WYSZKKKK">
+                <label for="exampleFormControlInput1" class="form-label">Status</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+              </div>
+              <div class="mb-3" id="WYSZKKKK">
+                <label for="exampleFormControlInput1" class="form-label">Miasto</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+              </div>
+            </div>
+
+            <div class="calawyszukdwa">
+              <div class="mb-3" id="WYSZKKKK">
+                <label for="exampleFormControlInput1" class="form-label">Województwo</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+              </div>
+              <div class="mb-3" id="WYSZKKKK">
+                <label for="exampleFormControlInput1" class="form-label">Nazwa</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+              </div>
+              <div class="mb-3" id="WYSZKKKK">
+                <label for="exampleFormControlInput1" class="form-label">Strona WWW Klienta</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+              </div>
+
+            </div>
+            <button type="button" class="btn btn-outline-success" id="butoniczis">Filtruj!</button>
+            <button type="button" class="btn btn-outline-danger">Zapisz raport</button>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+
+              <div class="dropdown">Sortuj wg:
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false" id="kliencik">
+                  Klient
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                </ul>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                    value="option1">
+                  <label class="form-check-label" for="inlineRadio1"><i class="fa-solid fa-up-long"></i></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                    value="option2">
+                  <label class="form-check-label" for="inlineRadio2"><i class="fa-solid fa-down-long"></i></label>
+                </div>
+              </div>
+            </div>
+
+            <table class="table" style="margin-top:2vh; margin-right:auto; margin-left:auto; width:90%;">
+              <thead>
+                <tr>
+                  <th scope="col">Kraj</th>
+                  <th scope="col">Status klienta</th>
+                  <th scope="col">Nazwa</th>
+                  <th scope="col">Miasto</th>
+                  <th scope="col">Strona WWW klienta</th>
+                  <th scope="col">Branża</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Polska</td>
+                  <td id="zielony">Aktualny</td>
+                  <td>LRANMATE Marcin Kleczek</td>
+                  <td>OLKUSZ</td>
+                  <td>www.leanmate.pl</td>
+                  <td>AGD</td>
+                  <td><i class="fa-solid fa-eye"></i><i class="fa-solid fa-pen"></i></td>
+                </tr>
+
+                <tr>
+                  <td></td>
+                  <td id="zielony">Aktualny</td>
+                  <td>Klient 2</td>
+                  <td></td>
+                  <td></td>
+                  <td>Motoryzacja</td>
+                  <td><i class="fa-solid fa-eye"></i><i class="fa-solid fa-pen"></i></td>
+                </tr>
+
+              </tbody>
+            </table>
+
+          </div>
+
+
+
+
+
+      </article>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
